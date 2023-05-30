@@ -1,10 +1,25 @@
 import { Component } from '@angular/core';
+import { IProduct } from './interface/Product';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test';
+
 }
+
+
+// // ProductList.js
+// function ProductList({ products, onRemove }) {
+//     return (
+//         <div>
+//         { products.map((item) => ()}
+//  <button onClick={() => onRemove(item.id)}></button>
+//         < /div>
+//     )
+// }
+
+// // App.js
+// <ProductList products={ array } onRemove={onHandleRemove} />
